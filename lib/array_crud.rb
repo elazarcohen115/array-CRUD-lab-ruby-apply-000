@@ -1,13 +1,13 @@
 def create_an_empty_array
-  
+  []
 end
 
-def create_an_array
-  
+def create_an_array 
+  abc = ["a", "c", "d", "e"]
 end
 
-def add_element_to_end_of_array(array, element)
-  
+def add_element_to_end_of_array(abc, "f")
+  abc << "f"
 end
 
 def add_element_to_start_of_array(array, element)
