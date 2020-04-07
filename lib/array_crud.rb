@@ -11,11 +11,11 @@ def add_element_to_end_of_array(abc, f)
 end
 
 def add_element_to_start_of_array(abc, zero)
-  abc.unshift()
+  abc.unshift(zero)
 end
 
-def remove_element_from_end_of_array(array)
-  
+def remove_element_from_end_of_array(abc)
+  abc.pop
 end
 
 def remove_element_from_start_of_array(array)
